@@ -1,0 +1,26 @@
+[13-Oct-25 01:03:27 AM - INFO] - <module>() - Line 341: __main__ - Bot Started!
+[13-Oct-25 01:03:46 AM - ERROR] - handle_download() - Line 198: __main__ - Peer id invalid: -1002298570341
+[13-Oct-25 01:04:12 AM - ERROR] - default_exception_handler() - Line 1785: asyncio - Task exception was never retrieved
+future: <Task finished name='Task-2223' coro=<Client.handle_updates() done, defined at C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\client.py:535> exception=ValueError('Peer id invalid: -1002190977859')>
+Traceback (most recent call last):
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002190977859'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\client.py", line 569, in handle_updates
+    channel=await self.resolve_peer(utils.get_channel_id(channel_id)),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 89, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asus\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\utils.py", line 246, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -1002190977859
+[13-Oct-25 01:07:17 AM - INFO] - signal_handler() - Line 75: root - Stop signal received (SIGINT). Exiting...
+[13-Oct-25 01:07:17 AM - INFO] - <module>() - Line 349: __main__ - Bot Stopped
