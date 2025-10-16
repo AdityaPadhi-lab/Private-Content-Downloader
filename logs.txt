@@ -87,3 +87,8 @@
 [16-Oct-25 04:31:50 PM - INFO] - send_media() - Line 113: helpers.utils - Uploading media: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_129_Billing_Software_Part_6_Update_&_Delete_Employe_&_JT.mp4 (video)
 [16-Oct-25 04:33:56 PM - INFO] - cleanup_download() - Line 19: helpers.files - Cleaning Download: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_129_Billing_Software_Part_6_Update_&_Delete_Employe_&_JT.mp4
 [16-Oct-25 04:33:57 PM - INFO] - handle_download() - Line 215: __main__ - [2025-10-16 16:33:57] Download requested: https://t.me/SmartprogrammingCourse/316
+[16-Oct-25 04:36:27 PM - INFO] - send_media() - Line 113: helpers.utils - Uploading media: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_130. Billing Software (Part 7) - Insert Images In Databa.mp4 (video)
+[16-Oct-25 04:38:26 PM - INFO] - cleanup_download() - Line 19: helpers.files - Cleaning Download: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_130. Billing Software (Part 7) - Insert Images In Databa.mp4
+[16-Oct-25 04:38:27 PM - INFO] - handle_download() - Line 215: __main__ - [2025-10-16 16:38:27] Download requested: https://t.me/SmartprogrammingCourse/317
+[16-Oct-25 04:41:08 PM - INFO] - send_media() - Line 113: helpers.utils - Uploading media: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_131_Billing_Software_Part_9_Login_Differnt_Modules_&_Pro.mp4 (video)
+[16-Oct-25 04:43:17 PM - INFO] - cleanup_download() - Line 19: helpers.files - Cleaning Download: c:\Users\asus\Downloads\uploderclone\RestrictedContentDL\downloads\1569_131_Billing_Software_Part_9_Login_Differnt_Modules_&_Pro.mp4
